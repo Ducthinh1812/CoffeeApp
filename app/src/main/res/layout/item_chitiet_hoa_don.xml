@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<TextView
+    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="HÓA ĐƠN CHI TIẾT"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã hóa đơn: "
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/TvMaCTHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách Hàng: "
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/tvtenKHcthd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đức Thịnh"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Mua"
+        android:textSize="18dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rcllistspoftl"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng Thanh Toán: "
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/TvThanhtoanCTHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100000đ"
+            android:textSize="18dp"/>
+    </LinearLayout>
+</LinearLayout>

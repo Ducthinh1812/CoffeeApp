@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#181D2D"
+        android:layout_height="45dp"
+        android:text="Sửa Sản Phẩm"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#001f4d"
+                android:text="Tên Sản phẩm"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/editTENSP"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#001f4d"
+                android:text="Hình Ảnh Sản Phẩm"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/editHASP"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#001f4d"
+                android:text="Giá Bán"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+            <EditText
+                android:inputType="number"
+                android:layout_weight="1"
+                android:id="@+id/editGIABAN"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#001f4d"
+                android:text="Mô Tả"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+            <EditText
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:id="@+id/editMOTASP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnHuyUpdate"
+            android:layout_width="160dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Hủy"/>
+        <Button
+            android:id="@+id/btnLuuUpdate"
+            android:layout_width="160dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Lưu"/>
+    </LinearLayout>
+
+</LinearLayout>

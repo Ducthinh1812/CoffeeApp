@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/hello"
+    tools:context=".activity.FacebookActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/iconthosua"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Chúng tôi đang trong quá trình nâng cấp chức năng này, mong bạn quay lại sau."
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="#8C746A"/>
+</LinearLayout>

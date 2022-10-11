@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MenuFragment"
+    android:background="@drawable/hello"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclviewTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:background ="@drawable/boder"-->
+<!--    android:orientation="horizontal">-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:src="@drawable/espresso"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:text="Espresso"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="15dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:src="@drawable/back"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="190dp"/>-->
+
+<!--</LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background ="@drawable/boder"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/cappuccino"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Cappuccino"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="15dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:src="@drawable/back"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="160dp"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background ="@drawable/boder"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:src="@drawable/macciato"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Macciato"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="15dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:src="@drawable/back"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="180dp"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background ="@drawable/boder"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:src="@drawable/mocha"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Mocha"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="15dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:src="@drawable/back"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="205dp"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background ="@drawable/boder"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:src="@drawable/latte"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:text="Latte"-->
+<!--            android:textSize="20dp" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="15dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:src="@drawable/back"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="220dp"/>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

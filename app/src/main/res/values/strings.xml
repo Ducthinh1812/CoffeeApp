@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_account">Account</string>
+    <string name="title_seach">Seach</string>
+    <string name="title_doanhthu">Doanh thu</string>
+    <string name="title_productmanage">Product Management</string>
+    <string name="title_changepass">Change password</string>
+    <string name="title_billmanage">Bill Management</string>
+    <string name="title_logout">Logout</string>
+</resources>

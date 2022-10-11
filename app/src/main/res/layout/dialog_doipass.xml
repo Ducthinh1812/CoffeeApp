@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/boderradius1"
+    android:layout_gravity="center">
+
+    <TextView
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#181D2D"
+        android:textStyle="bold"
+        android:layout_height="45dp"
+        android:text="Change Password"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPassnew"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.582"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/edtpassnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your new password"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPass"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.582"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/edtrepassnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter a new password"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnHuyUpdate"
+            android:layout_width="160dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Hủy"/>
+        <Button
+            android:id="@+id/btnLuuUpdate"
+            android:layout_width="160dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Lưu"/>
+    </LinearLayout>
+
+</LinearLayout>
