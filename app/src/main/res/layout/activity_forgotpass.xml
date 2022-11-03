@@ -1,64 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".activity.ForgotpassActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:orientation="horizontal">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="70dp"
-    android:layout_gravity="center"
-    android:background="@drawable/boderradius1"
-    android:orientation="horizontal">
 
-    <ImageButton
-        android:id="@+id/imgseachfg"
-        android:layout_width="48dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:background="#F8E9D6"
-        android:src="@drawable/ic_baseline_search_24"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="5dp"
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtseachfg"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boderradius1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgseachfg"
+                    android:layout_width="48dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#F8E9D6"
+                    android:src="@drawable/ic_baseline_search_24"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.414">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtseachfg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/boderradius10"
+                        android:hint="Nhập Email"
+                        android:inputType="textEmailSubject" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rclTimKiemTK"
+            android:layout_width="match_parent"
+            android:layout_height="499dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/cancelfg"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/boderradius10"
-            android:hint="Nhập Email"
-            android:inputType="textEmailSubject" />
-    </com.google.android.material.textfield.TextInputLayout>
-</LinearLayout>
-
-</LinearLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rclTimKiemTK"
-        android:layout_width="match_parent"
-        android:layout_height="499dp"
-        android:layout_marginTop="15dp" />
-    <TextView
-        android:id="@+id/cancelfg"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:background="#F8E9D6"
-        android:layout_marginTop="20dp"
-        android:textColor="#8C746A"
-        android:text="Back to login"/>
-</LinearLayout>
+            android:layout_marginTop="20dp"
+            android:background="#F8E9D6"
+            android:gravity="center"
+            android:text="Back to login"
+            android:textColor="#8C746A" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

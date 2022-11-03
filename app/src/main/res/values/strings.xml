@@ -10,4 +10,7 @@
     <string name="title_changepass">Change password</string>
     <string name="title_billmanage">Bill Management</string>
     <string name="title_logout">Logout</string>
+    <string name="facebook_app_id">1143565013258952</string>
+    <string name="fb_login_protocol_scheme">fb1143565013258952</string>
+    <string name="facebook_client_token">fd75d609f0de3abd859d3a174776faa6</string>
 </resources>
